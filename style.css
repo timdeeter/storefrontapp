@@ -1,0 +1,134 @@
+.body{
+    margin: 0px;
+    background-image: url("Assets/Water-Background.jpg");
+    max-width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar{
+    background-color:ghostwhite;
+    margin-top: 40px;
+    height: 50px;
+    width: 100%;
+    border: 1px solid rgb(150, 150, 255);
+    opacity: .7;
+}
+
+.navbar button{
+    background-color: rgb(150, 150, 150);
+    color: ghostwhite;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    margin: 5px 8px;
+    padding: 10px 10px;
+    border: 2px solid rgb(150, 150, 255);
+    font-size: 20px;
+}
+
+.navbar input{
+    background-color: rgb(150,150,150);
+    color:ghostwhite;
+    border-radius: 5px;
+    width: 150;
+    height: 20px;
+    margin-left: 55%;
+}
+
+.logo{
+    border-radius: 50%;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 100px;
+    height: 100px;
+    transform: translate(0px,-75px);
+}
+
+.background{
+    max-width: 100%;
+    height: auto;
+    background-position: center;
+}
+
+.store{
+    width: 75%;
+    height: 710px;
+    margin: auto;
+    background-color: ghostwhite;
+    opacity: .85;
+}
+
+.lefttext{
+    width: 30%;
+    height: 300px;
+    margin-left: 5%;
+    display: inline-block;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+
+.righttext{
+    width: 30%;
+    height: 300px;
+    margin-right: 5%;
+    display: inline-block;
+    overflow-wrap: break-word;
+    text-align: center;
+}
+
+.infoimage{
+    height: 250px;
+    width: auto;
+    display: block;
+    border-radius: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(0px,-275px);
+}
+
+.purchase{
+    height: 300px;
+    width: 20%;
+    margin: 2.5%;
+    background-color: darkslategrey;
+    border-radius: 10px;
+    float: left;
+}
+
+.purchase h3{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.purchase img{
+    height: 125px;
+    width: 125px;
+    display:block;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.purchase p{
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.purchase button{
+    background-color: green;
+    color: ghostwhite;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 0px;
+    border: 2px solid rgb(150, 150, 255);
+    font-size: 15px;
+}
